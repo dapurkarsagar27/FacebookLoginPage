@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.maindiv{
+	width: 100%;
+	height: 100vh;
+	background-color: #f1f2f6;
+	position: relative;
+}
+
+.formback{
+	width: 400px;
+	position: absolute;
+	left: 71%;
+	top: 50%;
+	transform:translate(-50%, -50%);
+	background-color: white;
+	box-shadow: 1px 1px 8px 1px #d2dae2;
+	border-radius: 8px;
+}
+
+.formback .users{
+	position: relative;
+	margin:18px;
+}
+
+.formback .users input{
+	width: 100%;
+	padding: 17px 15px;
+	border: 1px solid #d2dae2; 
+	border-radius: 7px;
+	position: relative;
+	font-size: 18px;
+	outline-color:  #0984e3;
+}
+
+
+.formback .password{
+	position: relative;
+	margin:18px;
+}
+
+.formback .password input{
+	width: 100%;
+	padding: 17px 15px;
+	border: 0.2px solid #d2dae2; 
+	border-radius: 7px;
+	position: relative;
+	font-size: 18px;
+	outline-color:  #0984e3;
+}
+
+
+.formback .submit{
+	margin-left:18px;
+	margin-right: 18px;
+	margin-top: 20px;
+	margin-bottom: 18px;
+}
+
+.formback .submit input{
+	width: 100%;
+	padding: 15px 90px;
+	background-color: #0984e3;
+	border:none;
+	outline: none;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: 900;
+	color: white;
+	cursor: pointer;
+	text-shadow: 0.0px 0.8px 0.8px black;
+}
+
+.formback .forgotpass{
+	margin-bottom: 19px;
+}
+
+.formback .forgotpass a{
+	text-decoration: none;
+	font-size: 17px;
+	color: #0984e3;
+	padding-left: 35%;
+}
+
+button{
+	padding:15px 20px;
+	background-color: red;
+	font-size: 18px;
+	font-weight: bolder;
+	border: none;
+	outline:none;
+	border-radius: 8px;
+	color: white;
+	background-color: #44bd32;
+	margin-top:18px;
+	margin-bottom: 18px;
+	margin-left: 25%;
+	text-shadow: 0.0px 0.8px 0.8px black;
+	cursor: pointer;
+}
+
+.facebook{
+	position: absolute;
+	top:40%;
+	left: 31%;
+	transform:translate(-50%, -50%);
+}
+
+.facebook img{
+	width: 245px;
+	height: 69px;
+	margin-bottom: 5px;
+}
+
+.facebook h2{
+	font-size: 26px;
+	letter-spacing: 1px;
+	color: #1e272e;
+}
+
+.bottom{
+	position: absolute;
+	left: 71%;
+	top: 80%;
+	transform: translate(-50%, -50%);
+}
+
+.bottom h3{
+	margin-top: 45px;
+	font-size: 14px;
+}
+
+.bottom h3 a{
+	color:black;
+	font-weight: 900;
+}
+
+.create{
+font-weight: bold;
+text-decoration: none;
+}
